@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Owner - Add Sales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sales.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+
+    <header>
+        <h1>Manage Your Sales</h1>
+    </header>
+
+    <div class="container">
+        <!-- Add Sales Section -->
+        <div class="add-sales-section">
+            <img src="favicon.png" alt="Add Sales Image" class="form-image">
+            <section class="add-sales-form">
+                <h2>Add Sales</h2>
+                <form id="salesForm">
+                    <label for="saleTitle">Sale Title:</label>
+                    <input type="text" id="saleTitle" name="saleTitle" placeholder="Enter sale title" required>
+
+                    <label for="saleDescription">Sale Description:</label>
+                    <textarea id="saleDescription" name="saleDescription" rows="4" placeholder="Enter sale details" required></textarea>
+
+                    <label for="saleImage">Image URL:</label>
+                    <input type="url" id="saleImage" name="saleImage" placeholder="Enter image URL" required>
+
+                    <button type="submit">Add Sale</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Sales Cards Section -->
+        <section class="sales-cards" id="salesCards">
+            <div class="sales-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sale Image">
+                <h3>Diwali Discount - 25% Off</h3>
+                <p>Get 25% off on all dry fruits from Oct 28 to Nov 5.</p>
+                <div class="popup">Diwali Discount - 25% Off: Get 25% off on all dry fruits from Oct 28 to Nov 5.</div>
+            </div>
+            <div class="sales-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sale Image">
+                <h3>Buy 1 Get 1 Free - Dairy Products</h3>
+                <p>Exclusive offer: Buy 1 Get 1 Free on all dairy products from Oct 27 to Oct 29.</p>
+                <div class="popup">Buy 1 Get 1 Free: Buy 1 Get 1 Free on all dairy products from Oct 27 to Oct 29.</div>
+            </div>
+            <div class="sales-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sale Image">
+                <h3>Vegetable Special - 30% Off</h3>
+                <p>Up to 30% off on fresh vegetables from Nov 1 to Nov 7.</p>
+                <div class="popup">Vegetable Special - 30% Off: Up to 30% off on fresh vegetables from Nov 1 to Nov 7.</div>
+            </div>
+            <div class="sales-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sale Image">
+                <h3>Summer Sale - 50% Off</h3>
+                <p>Enjoy 50% off on all summer items until the end of June.</p>
+                <div class="popup">Summer Sale - 50% Off: Enjoy 50% off on all summer items until the end of June.</div>
+            </div>
+            <div class="sales-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sale Image">
+                <h3>Back to School Sale</h3>
+                <p>Get all your school supplies at discounted prices! Sale ends August 31.</p>
+                <div class="popup">Back to School Sale: Get all your school supplies at discounted prices! Sale ends August 31.</div>
+            </div>
+            <div class="sales-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sale Image">
+                <h3>Winter Clearance - Up to 70% Off</h3>
+                <p>Huge discounts on winter wear and accessories, valid until Feb 15.</p>
+                <div class="popup">Winter Clearance - Up to 70% Off: Huge discounts on winter wear and accessories, valid until Feb 15.</div>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Local Grocery Shop. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <script src="sales.js"></script> <!-- Link to the JS file -->
+</body>
+</html>

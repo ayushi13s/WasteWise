@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Banana Bread",
+        "ingredients": ["Bananas", "Flour", "Sugar", "Eggs", "Baking Soda", "Salt"],
+        "instructions": "Preheat your oven to 350°F (175°C). Mash bananas in a bowl, then mix in melted butter. Stir in sugar, egg, and vanilla extract. Mix in baking soda and salt, then add flour. Pour batter into a greased loaf pan and bake for 60 minutes."
+    },
+    {
+        "name": "Vegetable Soup",
+        "ingredients": ["Carrots", "Potatoes", "Celery", "Onions", "Garlic", "Tomatoes", "Vegetable Broth"],
+        "instructions": "Chop all vegetables. In a large pot, sauté onions and garlic until translucent. Add carrots and celery, cooking for 5 minutes. Pour in vegetable broth and add potatoes. Bring to a boil, then simmer until vegetables are tender. Add tomatoes and season to taste."
+    },
+    {
+        "name": "Fruit Smoothie",
+        "ingredients": ["Any leftover fruits", "Yogurt", "Honey", "Ice"],
+        "instructions": "In a blender, combine your leftover fruits with yogurt and a drizzle of honey. Add ice for a thicker consistency and blend until smooth."
+    },
+    {
+        "name": "Egg Fried Rice",
+        "ingredients": ["Cooked Rice", "Eggs", "Carrots", "Peas", "Soy Sauce", "Green Onions"],
+        "instructions": "In a pan, scramble the eggs and set aside. In the same pan, sauté carrots and peas. Add the cooked rice and stir-fry. Mix in the scrambled eggs and soy sauce. Garnish with chopped green onions."
+    },
+    {
+        "name": "Pasta Primavera",
+        "ingredients": ["Pasta", "Mixed Vegetables", "Olive Oil", "Garlic", "Parmesan Cheese"],
+        "instructions": "Cook pasta according to package instructions. In a pan, heat olive oil and sauté garlic. Add mixed vegetables and cook until tender. Toss in the cooked pasta and sprinkle with Parmesan cheese."
+    },
+    {
+        "name": "Potato Fritters",
+        "ingredients": ["Potatoes", "Flour", "Eggs", "Onions", "Salt", "Pepper"],
+        "instructions": "Grate potatoes and onions. In a bowl, mix them with flour, eggs, salt, and pepper. Heat oil in a pan and drop spoonfuls of the mixture to fry until golden brown."
+    },
+    {
+        "name": "Chickpea Salad",
+        "ingredients": ["Chickpeas", "Tomatoes", "Cucumber", "Red Onion", "Olive Oil", "Lemon Juice"],
+        "instructions": "In a bowl, combine chickpeas, chopped tomatoes, cucumber, and red onion. Drizzle with olive oil and lemon juice. Toss to combine."
+    },
+    {
+        "name": "Apple Crisp",
+        "ingredients": ["Apples", "Brown Sugar", "Oats", "Butter", "Cinnamon"],
+        "instructions": "Preheat oven to 350°F (175°C). Slice apples and mix with brown sugar and cinnamon. In a separate bowl, mix oats, butter, and more brown sugar. Spread apples in a baking dish and top with oat mixture. Bake for 30-35 minutes."
+    },
+    {
+        "name": "Zucchini Noodles",
+        "ingredients": ["Zucchini", "Olive Oil", "Garlic", "Parmesan Cheese"],
+        "instructions": "Spiralize zucchini into noodles. In a pan, heat olive oil and sauté garlic. Add zucchini noodles and cook until slightly soft. Top with Parmesan cheese."
+    },
+    {
+        "name": "Bread Pudding",
+        "ingredients": ["Stale Bread", "Milk", "Eggs", "Sugar", "Vanilla"],
+        "instructions": "Preheat oven to 350°F (175°C). Tear bread into pieces and place in a bowl. Mix milk, eggs, sugar, and vanilla, then pour over bread. Let soak for 30 minutes, then bake for 45 minutes."
+    },
+    {
+        "name": "Savory Quiche",
+        "ingredients": ["Eggs", "Milk", "Cheese", "Spinach", "Pie Crust"],
+        "instructions": "Preheat oven to 375°F (190°C). In a bowl, whisk eggs and milk. Stir in cheese and spinach. Pour mixture into pie crust and bake for 35-40 minutes."
+    },
+    {
+        "name": "Peanut Butter Cookies",
+        "ingredients": ["Peanut Butter", "Sugar", "Eggs"],
+        "instructions": "Preheat oven to 350°F (175°C). In a bowl, mix peanut butter, sugar, and egg until smooth. Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+    },
+    {
+        "name": "Cabbage Stir-Fry",
+        "ingredients": ["Cabbage", "Carrots", "Soy Sauce", "Garlic", "Ginger"],
+        "instructions": "Shred cabbage and carrots. In a pan, heat oil and sauté garlic and ginger. Add cabbage and carrots, stir-frying until tender. Drizzle with soy sauce."
+    },
+    {
+        "name": "Muffins",
+        "ingredients": ["Flour", "Sugar", "Eggs", "Milk", "Baking Powder", "Fruit"],
+        "instructions": "Preheat oven to 350°F (175°C). In a bowl, mix flour, sugar, baking powder, and fruit. In another bowl, whisk eggs and milk. Combine wet and dry ingredients and pour into muffin tins. Bake for 20-25 minutes."
+    },
+    {
+        "name": "Tomato Sauce",
+        "ingredients": ["Tomatoes", "Garlic", "Onions", "Olive Oil", "Basil"],
+        "instructions": "Chop tomatoes, garlic, and onions. In a pot, heat olive oil and sauté onions and garlic. Add tomatoes and basil, cooking until sauce thickens."
+    },
+    {
+        "name": "Vegetable Omelette",
+        "ingredients": ["Eggs", "Bell Peppers", "Onions", "Spinach", "Cheese"],
+        "instructions": "Whisk eggs in a bowl. Sauté bell peppers and onions in a pan, then add spinach. Pour eggs over veggies and cook until set. Top with cheese before folding."
+    },
+    {
+        "name": "Rice Pudding",
+        "ingredients": ["Rice", "Milk", "Sugar", "Cinnamon", "Vanilla"],
+        "instructions": "In a saucepan, combine rice, milk, sugar, and cinnamon. Cook over low heat until rice is tender. Stir in vanilla and serve warm."
+    },
+    {
+        "name": "Stuffed Peppers",
+        "ingredients": ["Bell Peppers", "Rice", "Ground Meat", "Tomato Sauce", "Cheese"],
+        "instructions": "Preheat oven to 375°F (190°C). Cook rice and mix with ground meat and tomato sauce. Stuff bell peppers with the mixture and top with cheese. Bake for 30-35 minutes."
+    },
+    {
+        "name": "Homemade Pizza",
+        "ingredients": ["Pizza Dough", "Tomato Sauce", "Cheese", "Toppings"],
+        "instructions": "Preheat oven to 475°F (245°C). Roll out pizza dough, spread tomato sauce, and add cheese and toppings. Bake for 12-15 minutes."
+    },
+    {
+        "name": "Sweet Potato Fries",
+        "ingredients": ["Sweet Potatoes", "Olive Oil", "Salt", "Paprika"],
+        "instructions": "Preheat oven to 425°F (220°C). Cut sweet potatoes into fries. Toss with olive oil, salt, and paprika. Bake for 25-30 minutes until crispy."
+    },
+    {
+        "name": "Oatmeal",
+        "ingredients": ["Oats", "Milk or Water", "Fruits", "Honey"],
+        "instructions": "In a saucepan, bring milk or water to a boil. Stir in oats and cook until soft. Top with fruits and drizzle with honey."
+    },
+    {
+        "name": "Garlic Bread",
+        "ingredients": ["Bread", "Butter", "Garlic", "Parsley"],
+        "instructions": "Preheat oven to 350°F (175°C). Mix softened butter with minced garlic and chopped parsley. Spread on bread and bake for 10-15 minutes."
+    },
+    {
+        "name": "Minestrone Soup",
+        "ingredients": ["Vegetable Broth", "Beans", "Pasta", "Vegetables"],
+        "instructions": "In a large pot, combine broth, beans, pasta, and chopped vegetables. Bring to a boil and simmer until pasta is cooked."
+    },
+    {
+        "name": "Pumpkin Soup",
+        "ingredients": ["Pumpkin", "Onions", "Garlic", "Vegetable Broth", "Cream"],
+        "instructions": "Chop pumpkin, onions, and garlic. In a pot, sauté onions and garlic, then add pumpkin and broth. Cook until pumpkin is tender, then blend until smooth. Stir in cream."
+    },
+    {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": ["Flour", "Butter", "Sugar", "Chocolate Chips", "Eggs"],
+        "instructions": "Preheat oven to 350°F (175°C). Cream butter and sugar, then add eggs. Mix in flour and chocolate chips. Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+    },
+    {
+        "name": "Cucumber Salad",
+        "ingredients": ["Cucumbers", "Yogurt", "Garlic", "Dill", "Salt"],
+        "instructions": "Slice cucumbers and mix with yogurt, minced garlic, chopped dill, and salt. Chill before serving."
+    },
+    {
+        "name": "Quinoa Salad",
+        "ingredients": ["Quinoa", "Chickpeas", "Cucumbers", "Tomatoes", "Olive Oil", "Lemon Juice"],
+        "instructions": "Cook quinoa as per package instructions. In a bowl, combine cooked quinoa, chickpeas, chopped cucumbers, and tomatoes. Drizzle with olive oil and lemon juice."
+    },
+    {
+        "name": "Pancakes",
+        "ingredients": ["Flour", "Milk", "Eggs", "Sugar", "Baking Powder"],
+        "instructions": "In a bowl, mix flour, baking powder, and sugar. In another bowl, whisk milk and eggs. Combine the two and cook on a griddle until bubbles form."
+    },
+    {
+        "name": "Chili",
+        "ingredients": ["Ground Beef", "Beans", "Tomatoes", "Onions", "Chili Powder"],
+        "instructions": "Brown ground beef in a pot. Add onions and sauté until soft. Stir in beans, tomatoes, and chili powder. Simmer for 30 minutes."
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "ingredients": ["Bread", "Cheese", "Butter"],
+        "instructions": "Butter one side of each bread slice. Place cheese between unbuttered sides and grill until golden brown on both sides."
+    },
+    {
+        "name": "Cauliflower Rice",
+        "ingredients": ["Cauliflower", "Olive Oil", "Salt"],
+        "instructions": "Pulse cauliflower florets in a food processor until rice-sized. Sauté in olive oil with a pinch of salt until tender."
+    },
+    {
+        "name": "Pea Soup",
+        "ingredients": ["Peas", "Onions", "Vegetable Broth", "Mint"],
+        "instructions": "Sauté onions in a pot. Add peas and vegetable broth, cooking until peas are soft. Blend until smooth and add mint."
+    },
+    {
+        "name": "Sausage Rolls",
+        "ingredients": ["Puff Pastry", "Sausage Meat", "Egg Wash"],
+        "instructions": "Roll out puff pastry and cut into rectangles. Place sausage meat in the center, roll up, and seal. Brush with egg wash and bake until golden."
+    },
+    {
+        "name": "Baked Apples",
+        "ingredients": ["Apples", "Brown Sugar", "Cinnamon", "Butter"],
+        "instructions": "Preheat oven to 350°F (175°C). Core apples and fill with brown sugar and cinnamon. Top with butter and bake for 20-25 minutes."
+    },
+    {
+        "name": "Fried Eggplant",
+        "ingredients": ["Eggplant", "Flour", "Eggs", "Breadcrumbs", "Oil"],
+        "instructions": "Slice eggplant and dip in flour, then egg, and finally breadcrumbs. Fry in oil until golden brown."
+    },
+    {
+        "name": "Lentil Stew",
+        "ingredients": ["Lentils", "Carrots", "Celery", "Onions", "Vegetable Broth"],
+        "instructions": "In a pot, sauté onions, carrots, and celery. Add lentils and vegetable broth. Simmer until lentils are tender."
+    },
+    {
+        "name": "Baked Ziti",
+        "ingredients": ["Ziti Pasta", "Marinara Sauce", "Cheese", "Ground Meat"],
+        "instructions": "Preheat oven to 350°F (175°C). Cook ziti and mix with marinara sauce and cooked ground meat. Top with cheese and bake for 30 minutes."
+    },
+    {
+        "name": "Chicken Stir-Fry",
+        "ingredients": ["Chicken", "Mixed Vegetables", "Soy Sauce", "Garlic"],
+        "instructions": "Slice chicken and sauté in a pan. Add mixed vegetables and soy sauce, stir-frying until everything is cooked through."
+    },
+    {
+        "name": "Fruit Salad",
+        "ingredients": ["Any leftover fruits", "Mint"],
+        "instructions": "Chop leftover fruits and mix in a bowl. Garnish with mint leaves."
+    },
+    {
+        "name": "Coconut Rice",
+        "ingredients": ["Rice", "Coconut Milk", "Salt"],
+        "instructions": "Cook rice in coconut milk and a pinch of salt until fluffy."
+    },
+    {
+        "name": "Apple Sauce",
+        "ingredients": ["Apples", "Sugar", "Cinnamon"],
+        "instructions": "Peel and chop apples. Cook with sugar and cinnamon until soft. Mash until desired consistency."
+    },
+    {
+        "name": "Vegetable Curry",
+        "ingredients": ["Mixed Vegetables", "Coconut Milk", "Curry Powder"],
+        "instructions": "Sauté mixed vegetables in a pot. Add coconut milk and curry powder, simmering until vegetables are tender."
+    },
+    {
+        "name": "Chocolate Mousse",
+        "ingredients": ["Dark Chocolate", "Eggs", "Sugar", "Whipped Cream"],
+        "instructions": "Melt chocolate and let cool. Whisk egg whites and sugar until stiff. Fold chocolate into egg whites, then fold in whipped cream. Chill before serving."
+    },
+    {
+        "name": "Lasagna",
+        "ingredients": ["Lasagna Noodles", "Marinara Sauce", "Ricotta Cheese", "Mozzarella Cheese"],
+        "instructions": "Layer noodles, marinara sauce, ricotta, and mozzarella in a baking dish. Repeat layers and bake at 375°F (190°C) for 45 minutes."
+    },
+    {
+        "name": "Pesto Pasta",
+        "ingredients": ["Pasta", "Basil Pesto", "Parmesan Cheese"],
+        "instructions": "Cook pasta and toss with basil pesto. Serve with grated Parmesan cheese on top."
+    },
+    {
+        "name": "Yogurt Parfait",
+        "ingredients": ["Yogurt", "Granola", "Fruits"],
+        "instructions": "Layer yogurt, granola, and fruits in a cup. Repeat layers and enjoy."
+    },
+    {
+        "name": "Berry Smoothie Bowl",
+        "ingredients": ["Berries", "Yogurt", "Granola"],
+        "instructions": "Blend berries with yogurt until smooth. Pour into a bowl and top with granola."
+    },
+    {
+        "name": "Broccoli Cheese Bake",
+        "ingredients": ["Broccoli", "Cheese", "Breadcrumbs"],
+        "instructions": "Steam broccoli, then mix with cheese and breadcrumbs. Bake at 350°F (175°C) for 20 minutes."
+    }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booknow.css">
+    <title>Organic Waste Pickup Form</title>
+</head>
+<body>
+    <!-- Background Animation -->
+    <section class="form-container">
+        <h2>Pickup Request Form</h2>
+        <form id="pickupForm" action="send-mail.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="restaurantName">Restaurant Name:</label>
+            <input type="text" id="restaurantName" name="restaurantName" required>
+    
+            <label for="amount">Amount of Organic Waste (kg):</label>
+            <input type="number" id="amount" name="amount" required>
+    
+            <label for="address">Your Address:</label>
+            <input type="text" id="address" name="address" required>
+    
+            <label for="time">Pickup Time:</label>
+            <input type="time" id="time" name="time" required>
+    
+            <label for="compostHub">Select Compost Hub:</label>
+            <select id="compostHub" name="compostHub" required>
+                <option value="" disabled selected>Select a hub</option>
+                <option value="deepanshkhandelwal2006@gmail.com">Compost Hub 1</option>
+                <option value="hub2@example.com">Compost Hub 2</option>
+                <option value="hub3@example.com">Compost Hub 3</option>
+                <option value="hub4@example.com">Compost Hub 4</option>
+                <option value="hub5@example.com">Compost Hub 5</option>
+                <option value="hub6@example.com">Compost Hub 6</option>
+            </select>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <script>
+        document.getElementById("pickupForm").onsubmit = function(event) {
+            event.preventDefault();
+            alert("Your request has been submitted!");
+        };
+    </script>
+</body>
+</html>

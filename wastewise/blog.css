@@ -1,0 +1,114 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Welcome Section Styling */
+.welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('15.jpeg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    perspective: 1000px;
+}
+
+.welcome-section h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #ff6f61;
+    transform: rotateY(15deg);
+    transition: transform 0.5s;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    max-width: 600px;
+    transform: rotateY(-15deg);
+    transition: transform 0.5s;
+}
+
+/* Blog Container Styling */
+.blog-container {
+    padding: 40px 20px;
+}
+
+.blog-post {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px) rotateY(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-description {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Social Icons Styling */
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Submit Blog Section */
+.submit-blog {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.2em;
+}
+
+.submit-blog a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .welcome-section h1 {
+        font-size: 2.5em;
+    }
+
+    .blog-title {
+        font-size: 1.5em;
+    }
+
+    .blog-description {
+        font-size: 1em;
+    }
+}

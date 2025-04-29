@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(60deg, #1a1d23, #2c3e50); Updated background color */
+    background-image: url('7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+    line-height: 1.6;
+}
+header {
+    background-color: #000000; /* Changed green to black */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    font-size: 2.5rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.add-sales-section {
+    display: flex;
+    gap: 40px; /* Increased gap for better spacing */
+    align-items: flex-start;
+    max-width: 900px; /* Made it wider */
+    width: 100%;
+    margin-bottom: 40px; 
+    padding: 30px; /* Added more padding */
+    background-color: #9996969f;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.add-sales-form {
+    padding: 30px; /* Increased padding for form */
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+}
+.add-sales-form h2 {
+    color: #000000; /* Changed green to black */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increased font size */
+    text-align: center;
+}
+.add-sales-form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+.add-sales-form input,
+.add-sales-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.add-sales-form button {
+    background-color: #000000; /* Changed green to black */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+.add-sales-form button:hover {
+    background-color: #333333; /* Slightly lighter black for hover */
+}
+.sales-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Space between cards */
+    margin-top: 40px;
+}
+.sales-card {
+    background-color: #fff; /* White background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Fixed width for cards */
+    text-align: center; /* Center align text */
+    transition: transform 0.3s;
+    position: relative; /* Added for popup positioning */
+}
+.sales-card:hover {
+    transform: scale(1.05);
+}
+.sales-card img {
+    border-radius: 10px;
+    width: 100%;
+}
+.sales-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+.sales-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.popup {
+    display: none; /* Hide initially */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Changed green to black */
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -40px; /* Position above the card */
+    margin-left: 10px;
+    width: 250px; /* Fixed width for popup */
+    z-index: 10; /* Ensure it appears above other content */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease; /* Smooth transition */
+    opacity: 0; /* Start hidden */
+}
+.sales-card:hover .popup {
+    display: block; /* Show on hover */
+    opacity: 1; /* Fade in */
+}
+.footer {
+    background-color: #000000; /* Changed green to black */
+    color: white;
+    padding: 30px; /* Increased padding for larger footer */
+    text-align: center;
+    margin-top: 40px; /* Space above footer */
+    font-size: 1.2rem; /* Increased font size */
+}
+.footer p {
+    margin: 10px 0;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-icon {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+.social-icon:hover {
+    color: #ccc; /* Change color on hover */
+}

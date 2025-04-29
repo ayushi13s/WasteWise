@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(144, 19, 254, 0.8)), url('your-hero-image.jpg') no-repeat center center/cover; */
+    background-image: url('6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-description {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    max-width: 80%; /* Make description cover the center more */
+    transform: translateY(50px);
+    opacity: 0;
+    animation: popIn 1s forwards; /* Pop-in effect */
+}
+
+@keyframes popIn {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hero-description h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+    animation: bounce 1s infinite; /* Bounce animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.hero-description p {
+    font-size: 20px;
+    max-width: 700px; /* Larger text area for the description */
+    margin: 0 auto;
+}
+
+/* Compost Areas Section */
+.compost-areas {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    animation: slideIn 1s ease-in-out;
+    min-height: 100vh; /* Make sure section covers full screen */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.compost-areas h2 {
+    font-size: 36px;
+    color: #4a90e2;
+    margin-bottom: 40px;
+    animation: fadeInUp 1s ease-in-out; /* Fade and slide up */
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-direction: column; /* Align cards in a column */
+    align-items: center; /* Centers the cards */
+    gap: 20px; /* Space between cards */
+    margin-bottom: 50px;
+}
+
+/* Card styles */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%; /* Width for centered alignment */
+    max-width: 600px; /* Maximum width for larger screens */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s; /* Smooth transitions */
+    position: relative; /* For pseudo-element positioning */
+    overflow: hidden; /* Prevents content overflow */
+    animation: cardFadeIn 0.5s forwards; /* Fade-in for cards */
+}
+
+@keyframes cardFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    background-color: #f9f9f9; /* Change background on hover */
+}
+
+/* Card Content */
+.card h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+/* Button Styles */
+.card button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    overflow: hidden; /* To contain pseudo-element */
+}
+
+.card button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: transform 0.6s;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.card button:hover:before {
+    transform: translate(-50%, -50%) scale(1); /* Ripple effect */
+}
+
+.card button:hover {
+    background-color: #ff4d42;
+    transform: scale(1.05); /* Slight scale on hover */
+}
+
+/* Footer Section */
+.footer {
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out; /* Fade-in effect for footer */
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6f61; /* Change color on hover */
+    text-decoration: underline;
+}

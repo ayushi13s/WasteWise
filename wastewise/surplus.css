@@ -1,0 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Container Styling */
+body {
+   
+    background-image: url('16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading Styling with Fade-out Effect */
+.heading-container {
+    position: fixed;
+    top: 20%;
+    transition: opacity 1s ease;
+}
+
+#main-heading {
+    font-size: 2.5em;
+    color: #ff6f61;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.scrolled #main-heading {
+    opacity: 0; /* Fades the heading when scrolled */
+}
+
+/* Info Container for Sequential Fade-in */
+.info-container {
+    opacity: 100;
+    transition: opacity 1s ease;
+    margin-top: 150px; /* Ensure it shows below the heading */
+}
+
+.info-container p {
+    font-size:x-large;
+    color: #fefcfb;
+    margin: 10px 0;
+    animation: fade-in 1s ease forwards;
+}
+
+.scrolled .info-container {
+    opacity: 1;
+}
+
+/* Button Styling */
+.donate-button-container {
+    margin-top: 30px;
+}
+
+.donate-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #ff4b3e;
+    box-shadow: 0 15px 20px rgba(255, 75, 62, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #main-heading {
+        font-size: 1.8em;
+    }
+
+    .info-container p {
+        font-size: 1em;
+    }
+
+    .donate-button {
+        font-size: 1.1em;
+        padding: 12px 25px;
+    }
+}
